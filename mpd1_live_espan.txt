@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <!-- Created with Unified Streaming Platform (version=1.10.18-20255) -->
-<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" type="dynamic" availabilityStartTime="1970-01-01T00:00:00Z" publishTime="2023-10-06T10:56:56.707041Z" minimumUpdatePeriod="PT5S" timeShiftBufferDepth="PT3H" suggestedPresentationDelay="PT10S" maxSegmentDuration="PT4S" minBufferTime="PT15S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264">
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" type="dynamic" availabilityStartTime="1970-01-01T00:00:00Z" publishTime="2023-10-06T11:04:59.791132Z" minimumUpdatePeriod="PT5S" timeShiftBufferDepth="PT3H" suggestedPresentationDelay="PT10S" maxSegmentDuration="PT4S" minBufferTime="PT15S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264">
   <Period id="1" start="PT0S"><AdaptationSet id="1" group="1" contentType="audio" lang="aa" segmentAlignment="true" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1">
       <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <SegmentTemplate timescale="48000" initialization="446d29ed-4f0d-4c7a-ba6f-21e151741e43-C5-T11-S67-2549-no-drm-$RepresentationID$.dash?1696589700" media="446d29ed-4f0d-4c7a-ba6f-21e151741e43-C5-T11-S67-2549-no-drm-$RepresentationID$-$Time$.dash?1696589700">
-        <!-- 2023-10-06T07:56:50.212479Z / 1696579010 - 2023-10-06T10:56:50.212479Z -->
+      <SegmentTemplate timescale="48000" initialization="446d29ed-4f0d-4c7a-ba6f-21e151741e43-C5-T11-S67-2549-no-drm-$RepresentationID$.dash?1696589700-1696590000" media="446d29ed-4f0d-4c7a-ba6f-21e151741e43-C5-T11-S67-2549-no-drm-$RepresentationID$-$Time$.dash?1696589700-1696590000">
+        <!-- 2023-10-06T08:04:53.412479Z / 1696579493 - 2023-10-06T11:04:53.412479Z -->
         <SegmentTimeline>
-          <S t="81435792490199" d="153600" r="3374"/>
+          <S t="81435815683799" d="153600" r="3374"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="audio_aar=128000" bandwidth="128000">
       </Representation>
     </AdaptationSet><AdaptationSet id="2" group="2" contentType="video" par="16:9" minBandwidth="700000" maxBandwidth="8000000" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="50" mimeType="video/mp4" startWithSAP="1">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <SegmentTemplate timescale="600" initialization="446d29ed-4f0d-4c7a-ba6f-21e151741e43-C5-T11-S67-2549-no-drm-$RepresentationID$.dash?1696589700" media="446d29ed-4f0d-4c7a-ba6f-21e151741e43-C5-T11-S67-2549-no-drm-$RepresentationID$-$Time$.dash?1696589700">
-        <!-- 2023-10-06T07:56:53.411666Z / 1696579013 - 2023-10-06T10:56:53.411666Z -->
+      <SegmentTemplate timescale="600" initialization="446d29ed-4f0d-4c7a-ba6f-21e151741e43-C5-T11-S67-2549-no-drm-$RepresentationID$.dash?1696589700-1696590000" media="446d29ed-4f0d-4c7a-ba6f-21e151741e43-C5-T11-S67-2549-no-drm-$RepresentationID$-$Time$.dash?1696589700-1696590000">
+        <!-- 2023-10-06T08:04:56.611666Z / 1696579496 - 2023-10-06T11:04:56.611666Z -->
         <SegmentTimeline>
-          <S t="1017947408047" d="1920" r="3374"/>
+          <S t="1017947697967" d="1920" r="3374"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="video=700000" bandwidth="700000" width="720" height="400" sar="80:81" codecs="avc1.4D401F" scanType="progressive">
